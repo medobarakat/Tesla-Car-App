@@ -1,14 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, ImageBackground } from 'react-native';
-import CardItem from './components/CardItem';
-import Styles from './components/CardItem/styles';
+import { StatusBar } from "expo-status-bar";
+import { View } from "react-native";
+import CarsList from "./components/CarsList";
+import Styles from "./components/CardItem/styles";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <View style={Styles.container}>
-     <CardItem name="Model s" tagline="starting from 99.999 $" image={require("./assets/Model3.jpeg")}/>
+      <Header />
+      <CarsList />
+      <Footer />
       <StatusBar style="auto" />
     </View>
   );
 }
-
