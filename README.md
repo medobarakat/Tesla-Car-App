@@ -1,6 +1,6 @@
 # Tesla-Car-App
 
-this is a Tesla Clone Page Mobile App built with React js , React Native 
+this is a Tesla Clone Page Mobile App built with React js , React Native .
 
 ![screenshot](./assets/screenshot.PNG)
 
