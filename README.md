@@ -1,4 +1,4 @@
-# Tesla-Car-App
+# Tesla-Car-App.
 
 this is a Tesla Clone Page Mobile App built with React js , React Native .
 
